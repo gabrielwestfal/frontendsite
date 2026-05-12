@@ -100,3 +100,14 @@ ul {
     border-radius: 5px;
     text-align: center;
 }
+.title {
+    background-color: rgb(65, 255, 65);
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    text-align: center;
+    grid-gap: 10px;
+   
+   
+}
