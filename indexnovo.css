@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(90, 251, 90);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(7, 70, 7);
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div h1 {
+    margin: 0;
+}
+
+header div a {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+header img {
+    height: 100%;
+}
+
+/* Estilização sebre */
+#sobre {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-area:;
+}
+#sobre img {
+    display: grid;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#sobre div {
+    justify-items: center;
+    text-align: center;
+}
+#servicos {
+    background-color: gray;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto 1fr;
+    justify-items: center;
+}
+#servicos div {
+    display: grid;
+    background-color: aliceblue;
+    grid-template-columns:1fr 1fr 1fr;    
+}
+#servicos div article {
+    background-color: aquamarine;
+    margin: 2px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center; 
+}
