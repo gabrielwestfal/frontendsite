@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(90, 251, 90);
+    background-color: rgb(236, 236, 236);
     display: flex;
     flex-direction: column;
 }
@@ -13,6 +13,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 header div h1 {
@@ -22,6 +23,7 @@ header div h1 {
 header div a {
     background-color: greenyellow;
     padding: 10px;
+    border-radius: 10px;
 }
 
 form {
@@ -34,15 +36,17 @@ header img {
     height: 100%;
 }
 
-/* Estilização sebre */
+/* Estilização sobre */
 #sobre {
     display: grid;
-    grid-template-columns:1fr;
-    grid-area:;
+    grid-template-columns:1fr 1fr;
+    
 }
+
 #sobre img {
     display: grid;
     width: 100%;
+    height: 100%;
     border-radius: 5px;
 }
 
@@ -51,11 +55,15 @@ header img {
     text-align: center;
 }
 #servicos {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows:auto 1fr;
     justify-items: center;
+    border-radius: 5px;
+}
+#servicos h2 {
+    background-color: green;
 }
 #servicos div {
     display: grid;
@@ -63,10 +71,11 @@ header img {
     grid-template-columns:1fr 1fr 1fr;    
 }
 #servicos div article {
-    background-color: aquamarine;
+    background-color: rgb(0, 117, 6);
     margin: 2px;
     display: flex;
     flex-direction:column;
     align-items: center;
     text-align: center; 
+    border-radius: 5px;
 }
