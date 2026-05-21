@@ -5,162 +5,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>HortWestfal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <title>AgroWest</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/LogomarcaHW.png" alt="Logo da HortWestfal" width="15%" >
-        <nav class="links">
-            <a href="contato.html"><button>Contato</button></a>
-            <a href="criar-conta.html"><button>Criar Conta</button></a>
-            <a href="login.html"><button>Login</button></a>
-        </nav>
+        <img src="assets/LogoAgroWest.png" alt="">
+        <div>
+            <a href="#servicos" class="btn-primary">Orçamentos</a>
+            <a href="#contato" class="btn-secondary">Contatos</a>
+        </div>
     </header>
-
     <main>
 
-        <!-- HERO / APRESENTAÇÃO -->
-        <section>
+        <section class="hero">
 
-            <h1 id="titulo-principal">HortWestfal</h1>
-            <p>Soluções inteligentes em insumos para o agronegócio 🌱</p>
+            <div class="hero-texto">
+                <h1>
+                    Transformando tecnologia e estratégia em resultados reais no campo.
+                </h1>
 
-        </section>
-
-        <!-- SOBRE NÓS -->
-        <section id="sobre">
-
-            <h2 id="titulo-sobre">Sobre Nós</h2>
-
-            <article>
                 <p>
-                    A <strong>HortWestfal</strong> é uma empresa especializada em insumos agrícolas,
-                    comprometida com a produtividade, inovação e sustentabilidade no campo.
-                    Trabalhamos com soluções modernas que ajudam produtores a alcançar
-                    melhores resultados com eficiência e responsabilidade ambiental.
+                    Soluções modernas para produtores rurais e empresas do agronegócio.
                 </p>
-            </article>
-        </section>
-
-        <!-- VALORES -->
-        <section id="valores">
-
-            <h2 id="titulo-valores">Nossos Valores</h2>
-
-            <ul>
-                <li><strong>Inovação:</strong> Uso de tecnologia para melhorar o campo</li>
-                <li><strong>Sustentabilidade:</strong> Respeito ao meio ambiente</li>
-                <li><strong>Qualidade:</strong> Produtos confiáveis e eficientes</li>
-                <li><strong>Parceria:</strong> Crescimento junto ao produtor rural</li>
-            </ul>
-        </section>
-
-        <!-- PRODUTOS / SOLUÇÕES -->
-        <section id="produtos">
-            <h2 id="titulo-produtos">Nossas Soluções</h2>
-
-            <img src="assets/trator.jpg" alt="Produtos da HortWestfal" width="60%" height="auto">
             </div>
         </section>
 
-        <h2 class="title">Nossos Produtos</h2>
-        <section class="produtos">
-
-            <div>
-                <h3>Fertilizantes</h3>
-                <p>Nutrição completa para o solo e aumento da produtividade.</p>
+        <!-- SOBRE -->
+        <section class="sobre" id="sobre">
+            <div class="sobre-texto">
+                <h2 id="titulo-sobre">Sobre a AgroWestfal</h2>
+                <p>
+                    A AgroWestfal atua oferecendo soluções modernas para produtores
+                    rurais e empresas do agronegócio. Nosso objetivo é aumentar a
+                    eficiência no campo através de estratégias inovadoras,
+                    planejamento e tecnologia.
+                </p>
+                <p>
+                    Trabalhamos com foco em qualidade, sustentabilidade e resultados,
+                    ajudando nossos clientes a crescer com segurança e confiança.
+                </p>
             </div>
+            <img src="https://imgs.search.brave.com/mxsEiK5tmD01qRT2toP6mx3Sf--5ujDcKrcWVnXt9iE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/NjMyMTA4MS9wdC9m/b3RvL2Zhcm1lci1z/dGFuZGluZy1vbi1j/b3JuLWZpZWxkLWFn/YWluc3Qtc2t5Lmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1t/T1BWcTdnWUVnNkt6/ZjV4SG0wWVBaTGxY/RkJYSXd3UDlqeVFn/VVpKeDNjPQ"
+                alt="Campo agrícola">
+        </section>
 
-            <div>
-                <h3>Defensivos Agrícolas</h3>
-                <p>Proteção eficiente contra pragas e doenças.</p>
+        <!-- SERVIÇOS -->
+        <section class="servicos" id="servicos">
+            <h2 id="titulo-servicos">Nossos Serviços</h2>
+            <div class="cards">
+                <article>
+                    <h3>Consultoria Agrícola</h3>
+                    <p>
+                        Planejamento estratégico e suporte técnico para melhorar a
+                        produtividade no campo.
+                    </p>
+                    <img src="assets/consultoria.png" alt="">
+                </article>
+                <article>
+                    <h3>Logística Rural</h3>
+                    <p>
+                        Soluções eficientes para transporte e distribuição de
+                        produtos agrícolas.
+                    </p>
+                    <img src="assets/Logistica.png" alt="">
+                </article>
+                <article>
+                    <h3>Tecnologia no Campo</h3>
+                    <p>
+                        Integração de ferramentas modernas para monitoramento,
+                        gestão e automação agrícola.
+                    </p>
+                    <img src="assets/tecnologia.png" alt="">
+                </article>
             </div>
-
-            <div>
-                <h3>Sementes</h3>
-                <p>Alta performance genética para melhores colheitas.</p>
-            </div>
-
-            <div>
-                <h3>Adubos Orgânicos</h3>
-                <p>Melhoria da qualidade do solo e aumento da biodiversidade.</p>
-            </div>
-
-            <div>
-                <h3>Inoculantes</h3>
-                <p>Microorganismos benéficos para estimular o crescimento das plantas.</p>
-            </div>
-
-            <div>
-                <h3>Implementos para Trator</h3>
-                <p>Equipamentos para otimizar o trabalho no campo.</p>
-            </div>
-
         </section>
 
         <!-- DIFERENCIAIS -->
         <section id="diferenciais">
+            <div class="container">
+                <h2 id="titulo-diferenciais">Por que escolher a AgroWestfal?</h2>
 
-            <h2 id="titulo-diferenciais">Por que escolher a HortWestfal?</h2>
+                <article class="cardEsquerda">
+                    <h3>✔ Experiência</h3>
+                    <p>Anos de atuação no setor agropecuário.</p>
+                </article>
 
-            <ul>
-                <li>Atendimento especializado</li>
-                <li>Produtos de alta qualidade</li>
-                <li>Foco em resultados no campo</li>
-                <li>Compromisso com inovação</li>
-            </ul>
+                <article class="cardDireita">
+                    <h3>✔ Tecnologia</h3>
+                    <p>Soluções modernas para otimizar resultados.</p>
+                </article>
+
+                <article class="cardEsquerda">
+                    <h3>✔ Sustentabilidade</h3>
+                    <p>Compromisso com o desenvolvimento responsável.</p>
+                </article>
+                <article class="cardDireita">
+                    <h3>✔ Atendimento</h3>
+                    <p>Suporte próximo e personalizado para cada cliente.</p>
+                </article>
+            </div>
+        </section>
+        <!-- DEPOIMENTOS -->
+
+        <section id="depoimentos">
+
+            <h2>Depoimentos</h2>
+
+            <div class="depoimentos-cards">
+
+                <article>
+                    <p>
+                        “Excelente atendimento e ótimos resultados no campo.”
+                    </p>
+
+                    <h3>João Martins</h3>
+                </article>
+
+                <article>
+                    <p>
+                        “A equipe trouxe soluções modernas para nossa produção.”
+                    </p>
+
+                    <h3>Lucas Ferreira</h3>
+                </article>
+
+                <article>
+                    <p>
+                        “Serviço de qualidade e suporte muito eficiente.”
+                    </p>
+
+                    <h3>Marcos Silva</h3>
+                </article>
+
+            </div>
+
         </section>
 
-        <!-- FORMULÁRIO -->
-        <section id="contato">
+        <!-- CTA -->
+        <section class="cta">
+            <div class="container">
+                <h2 id="titulo-cta">Transforme o futuro da sua produção</h2>
+                <p>
+                    Entre em contato com a AgroWestfal e descubra como podemos ajudar
+                    o seu negócio a crescer.
+                </p>
 
-            <h2 id="titulo-contato">Fale Conosco</h2>
-
-
-            <form>
-
-
-                <h4>Entre em contato</h4>
-
-                <div>
-                    <label for="nome">Nome:</label><br>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-
-                <div>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div>
-                    <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                </div>
-
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-
-
-
-            </form>
+                <a href="#contato" class="btn-primary">Solicitar Atendimento</a>
+            </div>
         </section>
 
-        <!-- CTA FINAL -->
-        <section>
+        <!-- CADASTRO -->
+        <section class="cadastro" id="cadastro">
+            <div class="container">
+                <h2 id="titulo-contato">Cadastre-se</h2>
 
-            <h2 id="titulo-cta">Impulsione sua produção com a HortWestfal</h2>
-
-            <p>
-                Entre em contato e descubra como nossas soluções podem transformar
-                seus resultados no campo.
-            </p>
+                <form>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <input type="text" placeholder="Seu telefone">
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
         </section>
 
+        <!-- FOOTER -->
     </main>
+
     <footer>
-        <p>&copy; 2024 HortWestfal. Todos os direitos reservados.</p>
+        <p>© 2026 AgroWestfal - Todos os direitos reservados.</p>
     </footer>
 
 </body>
