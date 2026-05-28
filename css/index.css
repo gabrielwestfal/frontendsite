@@ -200,7 +200,7 @@ header img {
 /* DEPOIMENTOS */
 
 #depoimentos {
-    width: 90%;
+    width: 100%;
     background-color: var(--bg-section);
     padding: 40px;
     border-radius: 10px;

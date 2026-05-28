@@ -17,7 +17,6 @@ header {
 
     
 }
-
 header a {
     color: #fff;
 
@@ -27,9 +26,6 @@ nav {
     margin: 20px 0;
     background-color: green;
 }
-
-
-
 main {
     color: #000000;
     background-color: rgb(185, 255, 185);
